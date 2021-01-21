@@ -1,0 +1,224 @@
+.bg-dark{
+    background: black !important;
+}
+.collapse.show {
+    display: block;
+    padding-top: 150px;
+    padding-left: 10px;
+    height: 100vh;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+.navbar{
+    background: transparent;
+}
+.navbar-brand{
+    font-family: Josefin Sans;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+}
+.header{
+    margin-top: -105px;
+    background: url("images/desktop/image-hero.jpg") center;
+    height: 640px;
+}
+.header h1{
+    padding: 30px;
+    font-family: Josefin Sans;
+    font-weight:100;
+    font-size: 50px;
+    border: solid 1px white;
+    color: white;
+    position: absolute;
+    margin-top: 200px;
+}
+.header img{
+    background-size: cover;
+}
+.about{
+    font-family: Alata;
+}
+.about img{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    width: 100%;
+    justify-content: center;
+}
+.about h2{
+    font-family: Josefin Sans;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 900;
+}
+.about p{
+    color: darkgray;
+    font-weight: 100;
+    font-size: 15px;
+}
+.creations{
+    margin-top: 100px;   
+}
+.creations-img{
+    margin-top: 50px;
+}
+.creations-img p{
+    color: white;
+    font-size: 30px;
+    margin-top: -120px;
+    margin-left: 30px;
+    padding-right: 60px;
+    font-family: Josefin Sans;
+    font-weight: 100;
+}
+.creations h2{
+    font-family: Josefin Sans;
+    text-align: left;
+    color: black;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.card{
+    height: 120px;
+    border: none;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.card-img-top{
+    height: auto;
+}
+.card:hover.card img{
+    filter: opacity(0.2);
+    -webkit-filter: opacity(0.2);
+    transition: all .8s ease-in-out;
+    -webkit-transition: all .8s ease-in-out;  
+}
+.card:hover.card h5{
+    z-index: 1;
+    color: rgb(77, 77, 77);
+    transition: all .8s ease-in-out;
+    -webkit-transition: all .8s ease-in-out;
+}
+.card h5{
+    padding-left: 30px;
+    padding-right: 300px;
+    font-size: 30px;
+    color: white;
+    font-family: Alata;
+    font-weight: 100;
+    position: absolute;
+    margin-top: 40px;
+    font-size: 25px;
+}
+footer{
+    background-color: black;
+    height: 100%;
+    float: left;
+    width: 100%;
+    padding: 30px;
+}
+footer .left{
+    text-align: center;
+}
+footer .navbar-brand{
+    display: block;
+    font-size: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+footer a{
+    color: white;
+    font-family: Josefin Sans;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+}
+footer a:hover{
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+}
+footer img{
+    margin: 10px;
+}
+footer span{
+    margin-top: 10px;
+    color: #9a9a9a;
+    font-size: 12px;
+    display: block;
+}
+footer span a{
+    display: inline;
+    margin: 0;
+}
+.icon{
+    text-align: center;
+}
+@media (min-width: 992px) {
+    .navbar-brand{
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    }
+    .nav-link{
+        margin-right: 20px;
+        font-family: Josefin Sans;
+        font-size: 15px;
+        font-weight: 400;
+        color: white !important;
+    }
+    .navbar{
+        margin-top: 30px !important;
+        background: transparent !important;
+    }
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid white;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 4px;
+        margin-bottom: -7px;
+    }
+    .header h1{
+        padding: 30px;
+        height: 300px;
+        width: 550px;
+        font-family: Josefin Sans;
+        font-weight:lighter;
+        font-size: 65px;
+        border: solid 1px white;
+        margin-left: 100px;
+        color: white;
+    }
+    .about h2{
+        text-align: left;
+    }
+    #col2{
+        width: 400px;
+        background-color: white;
+        margin-top: 200px;
+        margin-left: -150px;
+        padding-top: 90px;
+        padding-left: 90px;
+    }
+    .card{
+        height: 450px;
+    }
+    .card h5{
+        margin-top: 350px;
+        padding-right: 70px;
+    }
+    footer .navbar-brand{
+        display: inline;
+    }
+    footer a{
+        display: inline;
+    }
+    footer .left {
+        text-align: left;
+    }
+    footer .icon{
+        text-align: right;
+    }
+}
