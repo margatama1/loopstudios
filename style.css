@@ -155,6 +155,7 @@ footer span a{
 .icon{
     text-align: center;
 }
+/* Desktop */
 @media (min-width: 992px) {
     .navbar-brand{
         color: white !important;
