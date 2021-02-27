@@ -1,6 +1,7 @@
 .bg-dark{
     background: black !important;
 }
+/* Navigasi */
 .collapse.show {
     display: block;
     padding-top: 150px;
@@ -18,6 +19,7 @@
     font-size: 30px;
     color: white;
 }
+/* Navigasi End */
 .header{
     margin-top: -105px;
     background: url("images/desktop/image-hero.jpg") center;
